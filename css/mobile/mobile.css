@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Roboto:ital,wght@1,500&display=swap");
+
+.cards {
+  width: 166px;
+  height: 918px;
+  margin: 40px auto 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards > li {
+  background: #f2f3f6;
+  border-radius: 10px;
+  height: 128px;
+  width: 166px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards i {
+  margin-bottom: 15px;
+}
+
+.categories-title {
+  text-align: center;
+  padding-top: 50px;
+
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #111238;
+}
+
+.cards p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #111238;
+}
+
+.cards > li:hover {
+  background: #1a75e8;
+  color: #ffffff;
+}
+
+.cards > li:hover p {
+  color: #ffffff;
+}
+
+.jobs-title {
+  text-align: center;
+  padding-top: 50px;
+
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #111238;
+}
+
+.foto {
+  width: 300px;
+  margin-top: 80px;
+  margin-left: 45px;
+}
+
+/* SECTION JOBS */
+
+.vacancies-cards {
+  height: 290px;
+  width: 320px;
+  margin: 10px auto 30px;
+  border-radius: 50px;
+}
+
+.stack li {
+  border: 1px #c5c9d5 solid;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+h6 {
+  font-weight: 700;
+}
+
+button {
+  background-color: #1a75e8;
+  border: none;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 10px;
+}
+
+.vacancies-card {
+  border: 1px solid #c5c9d5;
+  width: 290px;
+  height: 441px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+
+  padding: 30px 0 30px;
+}
+
+.vacancie-title {
+  width: 173px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #1a75e8;
+}
+
+.vacancie-stack {
+  width: 183px;
+  height: 59px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vacancie-stack .stack {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.end {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER MENU */
+
+.menu-btn {
+  display: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+label:hover {
+  cursor: pointer;
+  margin-left: 281px;
+}
+
+label span,
+label span::after,
+label span::before {
+  content: "";
+  height: 2px;
+  width: 25px;
+  background: #333;
+  position: absolute;
+  right: 0;
+}
+
+label span::before {
+  top: -8px;
+  text-align: right;
+}
+
+label span::after {
+  top: 8px;
+}
+
+input[type="checkbox"]:checked ~ label span {
+  transform: rotate(-45deg);
+}
+
+input[type="checkbox"]:checked ~ label span::before {
+  transform: rotate(0);
+  top: 0;
+}
+
+input[type="checkbox"]:checked ~ label span::after {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+input[type="checkbox"]:checked ~ .menu-btn {
+  display: flex;
+}
+
+.ciao {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+h1 {
+  width: 235px;
+  height: 58px;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 19px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #111238;
+}
+
+.subtitles {
+  width: 290px;
+  height: 88px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+
+  text-align: center;
+
+  color: #111238;
+}
+
+.Bsearch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 10px;
+  margin-top: 22px;
+  margin-top: 45px;
+
+  position: absolute;
+  width: 68.44px;
+  height: 45px;
+  right: 45px;
+
+  background: #1a75e8;
+  border-radius: 5px;
+}
+
+.Search {
+  width: 290px;
+  height: 70px;
+  left: 45px;
+  top: 250px;
+  margin-top: 10px;
+  margin-top: 30px;
+
+  background: #ffffff;
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.start {
+  width: 71px;
+  height: 17px;
+  margin-top: 85px;
+  margin-left: 39%;
+  margin-right: auto;
+
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #b2b2b2;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.box1 {
+  position: absolute;
+  width: 63px;
+  height: 17px;
+  margin-top: 20px;
+  margin-left: 65%;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #b2b2b2;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.box2 {
+  width: 60px;
+  height: 17px;
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 20px;
+
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #b2b2b2;
+
+  flex: none;
+  order: 0;
+  border: 1px solid black;
+  border-radius: 20px;
+  flex-grow: 0;
+}
+
+.box3 {
+  width: 56px;
+  position: absolute;
+  height: 17px;
+  margin-left: 42%;
+  margin-top: 20px;
+
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #b2b2b2;
+
+  flex: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  order: 0;
+  flex-grow: 0;
+}
+
+.inizio {
+  width: 400px;
+  height: 900px;
+}
+
+@media (max-width: 768px) {
+  .menu-btn {
+    position: absolute;
+    width: 10;
+    background-color: aquamarine;
+  }
+}
+
+footer {
+  width: 235px;
+  height: 58px;
+
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #111238;
+}

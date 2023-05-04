@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1000px) {
+  /* HEADER */
+
+  /* SECTION JOBS */
+  .cards {
+    flex-direction: row;
+
+    height: 128px;
+    width: 1146px;
+  }
+
+  .categories-title {
+    height: 128px;
+    width: 1146px;
+    margin-left: 20%;
+  }
+
+  .vacancies-cards {
+    width: 1146px;
+    height: 700px;
+  }
+
+  .vacancies-card {
+    flex-direction: row;
+    width: 1146px;
+    height: 160px;
+    border-radius: 20px;
+  }
+
+  .categories-title {
+    display: flex;
+    width: 460px;
+    height: 29px;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: #1a75e8;
+    margin-right: 50px;
+  }
+
+  .vacancie-stack {
+    display: inline;
+  }
+
+  .jobs-title {
+    width: 460px;
+    height: 29px;
+    margin-bottom: 40px;
+    margin-left: 220px;
+  }
+
+  .company {
+    margin-left: 30px;
+  }
+
+  label {
+    display: none;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+
+  .foto{
+    width: 100%;
+
+  }
+
+  button {
+    background: #1a75e8;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: #1a75e8;
+  }
+
+  .hello {
+    background-image: url(/img/hero-image\\(1\).svg);
+    background-repeat: no-repeat;
+    width: 544.11px;
+    height: 557.49px;
+    margin-left: 999px;
+  }
+
+  .ciao {
+    margin-left: 147.21px;
+    margin-top: 68.78px;
+  }
+
+  .end {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
